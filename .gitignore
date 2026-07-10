@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Generated face data
+data/known_faces/*
+data/embeddings/*
+
+# Keep empty folders in GitHub
+!data/known_faces/.gitkeep
+!data/embeddings/.gitkeep
+
+# Test cache
+.pytest_cache/
+.coverage
